@@ -1,8 +1,23 @@
-body {
+body{
     text-align: center;
-    margin: 15%;
+    justify-content: center;
+    margin: 10%;
+    font-size: 65px;
+    
 }
-
-label {
-    display: block;
+.input {
+    font-size: 35px;
+}
+.labels {
+    display:block;
+}
+.submit {
+    display:block;
+    margin-left: 50%;
+    transform:translate(-50%,0%);
+    height: 30px;
+    width: 65px;
+}
+.title{
+    display:block;
 }
