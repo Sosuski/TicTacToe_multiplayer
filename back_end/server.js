@@ -47,6 +47,11 @@ server.post('/login', async (req, res) => {
       message: 'successfully logged in',
       code: 201
     })
+  } else {
+    res.json({
+      message: 'failed to log in',
+      code: 400
+    })
   }
 })
 
