@@ -55,6 +55,10 @@ server.post('/login', async (req, res) => {
   }
 })
 
+server.get('/home', async (req, res) => {
+  const query = await Users.find();
+  res.json({message: query});
+})
 
 server.listen(8000, () => {
     console.log("Server is on");
